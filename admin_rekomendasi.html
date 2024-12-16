@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Admin Rekomendasi</title>
+    <link rel="stylesheet" href="admin_rekomendasi.css" />
+  </head>
+  <body>
+    <div class="container">
+      <!-- Sidebar -->
+      <div class="sidebar">
+        <div class="logo">
+          <h2>
+            SKINCARE <br />
+            REMINDER
+          </h2>
+        </div>
+        <div class="admin-text">Admin</div>
+        <ul class="menu">
+          <li><a href="#">HOME</a></li>
+          <li><a href="#">PROFILE</a></li>
+          <li class="active"><a href="#">REKOMENDASI</a></li>
+          <li><a href="#">FEEDBACK</a></li>
+        </ul>
+        <div class="copyright">COPYRIGHT</div>
+      </div>
+
+      <!-- Content -->
+      <div class="content">
+        <div class="header">
+          <h2>REKOMENDASI</h2>
+        </div>
+        <div class="recommendation-section">
+          <!-- Daftar Rekomendasi -->
+          <div class="list">
+            <h3>Daftar Rekomendasi</h3>
+            <ul>
+              <li>1. Cream Siang <span class="icons">✏️ ❌</span></li>
+              <li>2. Cream Malam <span class="icons">✏️ ❌</span></li>
+              <li>3. Sun Screen <span class="icons">✏️ ❌</span></li>
+              <li>4. Sabun Muka <span class="icons">✏️ ❌</span></li>
+              <li>5. Micellar Water <span class="icons">✏️ ❌</span></li>
+              <li>6. Toner <span class="icons">✏️ ❌</span></li>
+            </ul>
+          </div>
+
+          <!-- Form Tambah Materi -->
+          <div class="form-section">
+            <h3>Masukan Gambar</h3>
+            <form>
+              <input type="file" name="image" accept="image/*" />
+              <input type="text" placeholder="Nama" />
+              <input type="text" placeholder="Jenis Kulit" />
+              <textarea placeholder="Masukan Deskripsi"></textarea>
+              <button type="submit">Tambah Materi</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

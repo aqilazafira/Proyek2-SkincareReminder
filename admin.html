@@ -3,16 +3,19 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Skincare Reminder</title>
-    <link rel="stylesheet" href="style.css" />
+    <title>Admin Skincare Reminder</title>
+    <link
+      rel="stylesheet"
+      href="{{ url_for('static', filename='style.css') }}"
+    />
   </head>
   <body>
     <!-- Sidebar -->
     <div class="sidebar">
       <h2>SKINCARE REMINDER</h2>
       <ul>
-        <li><a href="#">DASHBOARD</a></li>
-        <li><a href="#">USER</a></li>
+        <li><a href="#" class="active">DASHBOARD</a></li>
+        <li><a href="#">ADMIN</a></li>
         <li><a href="#">MANAJEMEN</a></li>
         <li><a href="#">FEEDBACK</a></li>
       </ul>
@@ -20,7 +23,9 @@
 
     <!-- Header -->
     <div class="header">
-      <div class="user">User</div>
+      <div class="admin">
+        <span>Admin</span>
+      </div>
     </div>
 
     <!-- Main Content -->

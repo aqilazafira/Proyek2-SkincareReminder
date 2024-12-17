@@ -1,0 +1,122 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #F8F8F8;
+}
+
+/* Container */
+.container {
+    display: flex;
+    background-color: #FFF;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 800px;
+    height: 500px;
+}
+
+.login-card {
+    background-color: #FFEEF2;
+    padding: 40px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.logo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.logo h1 {
+    font-size: 32px;
+    line-height: 1.2;
+    color: #777;
+}
+
+.logo h1 span {
+    color: #333;
+    font-weight: bold;
+}
+
+.input-group {
+    display: flex;
+    align-items: center;
+    margin: 15px 0;
+}
+
+.input-group label {
+    background-color: #FFC0CB;
+    padding: 10px;
+    color: #333;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #FFC0CB;
+    border-left: none;
+    font-size: 14px;
+    outline: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    font-size: 16px;
+    cursor: pointer;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin: 5px 0;
+}
+
+.login-btn {
+    background-color: #FF69B4;
+    color: #FFF;
+}
+
+.register-btn {
+    background-color: #FFF;
+    color: #FF69B4;
+    border: 2px solid #FF69B4;
+}
+
+.register-btn:hover {
+    background-color: #FF69B4;
+    color: #FFF;
+}
+
+/* Illustration */
+.illustration {
+    width: 50%;
+    background-color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.illustration img {
+    max-width: 100%;
+    height: auto;
+}
